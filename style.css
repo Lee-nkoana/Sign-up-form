@@ -33,6 +33,7 @@ body{
 
 #right_box{
     display: flex;
+    flex-direction: column;
     width: 60%;
 }
 
@@ -60,4 +61,39 @@ body{
     font-weight: bold;
     color: white;
     font-family: 'Orbitron', sans-serif;
+}
+
+#disclaimer{
+    height: 30%;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    font-family: 'Tektur', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(148, 147, 147, 0.3);
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+}
+
+form > div{
+    display: flex;
+    float: left;
+    margin-right: 20px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    width: 65%;
 }

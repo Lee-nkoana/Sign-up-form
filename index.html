@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="main">
@@ -20,7 +21,49 @@
                 Image created by Simon Lee on Unsplash
             </div>
         </div>
-        <div id="right_box"></div>
+        <div id="right_box">
+            <div id="disclaimer">
+                This is not a real online service! With that said sign-up and feel the satisfaction of clicking a button!
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <div>
+                        <div class="details">
+                            <label for="user_name">Name</label>
+                            <input type="text" name="user_name" id="name">
+                        </div>
+                        <div class="details">
+                            <label for="user_surname">Surname</label>
+                            <input type="text" name="user_surname" id="surname">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="details">
+                            <label for="user_email">Email</label>
+                            <input type="email" name="user_email" id="email">
+                        </div>
+                        <div class="details">
+                            <label for="user_phone">Phone Number</label>
+                            <input type="text" name="user_phone" id="phone">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="details">
+                            <label for="user_password">Password</label>
+                            <input type="password">
+                        </div>
+                        <div class="details">
+                            <label for="pass_confirm">Confirm Password</label>
+                            <input type="password">
+                        </div>
+                    </div>
+                    <button type="submit" id="btnSubmit">Submit</button>
+                </form>
+            </div>
+            <div id="login_option">
+                Already have an account? <a href="#">Login</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
